@@ -31,8 +31,9 @@ public class RatMazeFrame extends JFrame {
 	 * Create the frame.
 	 */
 	public RatMazeFrame() {
+		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 461, 474);
+		setBounds(100, 100, 432, 452);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
